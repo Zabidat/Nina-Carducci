@@ -354,3 +354,31 @@ input[type="submit"] {
 	}
 }
 
+footer 
+{
+	width: 100%;
+	background-color: #5c5313;
+	color: #fff;
+	display: flex;
+	justify-content: space-between; 
+}
+
+.footer-left ul 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	top: 0;
+}
+
+.footer-right
+{
+	width: 100%;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
