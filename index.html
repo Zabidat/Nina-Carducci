@@ -8,21 +8,22 @@
 	<!--FACEBOOK META TAGS -->
 	<!--TWITTER META TAGS-->
 	<!--For Link-->
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap-min.css" defer>
+	<link rel="stylesheet" href="./assets/style-min.css" defrer>
+	<link rel="preconnect" href="https://fonts.googleapis.com" defer>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin defer>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" defer>
 	<meta charset="UTF-8">
 	<!--For Script-->
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts-min.js" defer></script>
 	<!--For Style-->
 </head>
 <body>
-	<!--Replace div with header tag-->
+
+ <!--Replace div with header tag-->
 <header class="top-header">
 	<!--Replace h3 with H1 tag-->
 	<h1 class="name">Nina Carducci</h1>
@@ -37,43 +38,45 @@
 		</ul>
 	</nav>
 </header>
-<div id="header">
 
-	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img  class="d-block w-100" alt="Homme en costard traversant un large passage piéton." title="Homme classe qui marche." 
-				srcset="./assets/images/slider/ryoji-iwata-1440.webp 1440w, ./assets/images/slider/ryoji-iwata-1024.webp 1024w, ./assets/images/slider/ryoji-iwata-mobile.webp 768w, ./assets/images/slider/ryoji-iwata-400.webp 400w, ./assets/images/slider/ryoji-iwata-320.webp 320w" 
-				sizes="(max-width:768px) 768w,(max-width:1440px) 1440w,(max-width:1024px) 1024w,(max-width:400px) 400w,(max-width:320px) 320w " loading="lazy"> 
-			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green.webp" class="d-block w-100" alt="Groupe de gens en festival." title="Gens en festival." 
-				srcset="./assets/images/slider/nicholas-green.webp 1440w, ./assets/images/slider/nicholas-green.webp 1024w, ./assets/images/slider/nicholas-green.webp 768w, ./assets/images/slider/nicholas-green.webp 414w, ./assets/images/slider/nicholas-green.webp 320w" 
-				sizes="100vw" width="1920" height="888" loading="lazy">
-			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros.webp" class="d-block w-100" alt=" Couple s'embrassant pendant leur mariage." title="Cérémonie de mariage entre un homme et une femme." 
-				srcset="./assets/images/slider/edward-cisneros.webp 1440w, ./assets/images/slider/edward-cisneros.webp 1024w, ./assets/images/slider/edward-cisneros.webp 768w, ./assets/images/slider/edward-cisneros.webp 414w, ./assets/images/slider/edward-cisneros.webp 320w" 
-				sizes="100vw" width="1920" height="888" loading="lazy">
-			</div>
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
-	</div>
-</div>
-<!--Place main tag for content principal of the Web Site-->
+ <!--Place main tag for content principal of the Web Site-->
 <main>
+	<div id="header">
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100" alt="Homme en costard traversant un large passage piéton." title="Homme classe qui marche." 
+					srcset="./assets/images/slider/ryoji-iwata-1440.webp 1440w, ./assets/images/slider/ryoji-iwata-1024.webp 1024w, ./assets/images/slider/ryoji-iwata-mobile.webp 768w, ./assets/images/slider/ryoji-iwata-400.webp 400w, ./assets/images/slider/ryoji-iwata-320.webp 320w" 
+					sizes="100vw" width="1920" height="888"> 
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/slider/nicholas-green.webp" class="d-block w-100" alt="Groupe de gens en festival." title="Gens en festival." 
+					srcset="./assets/images/slider/nicholas-green-1440.webp 1440w, ./assets/images/slider/nicholas-green-1024.webp 1024w, ./assets/images/slider/nicholas-green-768.webp 768w, ./assets/images/slider/nicholas-green-414.webp 414w, ./assets/images/slider/nicholas-green-320.webp 320w" 
+					sizes="100vw" width="1920" height="888" loading="lazy">
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/slider/edward-cisneros.webp" class="d-block w-100" alt=" Couple s'embrassant pendant leur mariage." title="Cérémonie de mariage entre un homme et une femme." 
+					srcset="./assets/images/slider/edward-cisneros-1440.webp 1440w, ./assets/images/slider/edward-cisneros-1024.webp 1024w, ./assets/images/slider/edward-cisneros-768.webp 768w, ./assets/images/slider/edward-cisneros-414.webp 414w, ./assets/images/slider/edward-cisneros-320.webp 320w" 
+					sizes="100vw" width="1920" height="888" loading="lazy">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+
 	<div id="about">
 		<div class="picture left">
 			<img src="./assets/images/nina.webp" alt="Portrait d'une jeune femme avec des arbres à l'arrière." 
@@ -87,18 +90,20 @@
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
 	</div>
-	<div id="gallery">
-		<h2 class="title">Portfolio</h2>
+
+	<!--Add Section tags defines a section and includes a title, textual and visual content, etc-->
+	<section id="gallery">
+		<h2 class="title">Portfolio</h2> 
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-min.webp" 
-				alt="Festival avec beaucoup du monde et une scène illuminée en rouge." 
-				title="Festival, spectateurs et scène illuminée en rouge." srcset="./assets/images/gallery/concerts/aaron-paul-min.webp 1440w, ./assets/images/gallery/concerts/aaron-paul-min.webp 1024w, ./assets/images/gallery/concerts/aaron-paul-min.webp 768w, ./assets/images/gallery/concerts/aaron-paul-min.webp 414w, ./assets/images/gallery/concerts/aaron-paul-min.webp 320w" sizes="100vw"
+				alt="Concert avec beaucoup du monde et une scène illuminée en rouge." 
+				title="Concert, spectateurs et scène illuminée en rouge." srcset="./assets/images/gallery/concerts/aaron-paul-min.webp 1440w, ./assets/images/gallery/concerts/aaron-paul-min.webp 1024w, ./assets/images/gallery/concerts/aaron-paul-min.webp 768w, ./assets/images/gallery/concerts/aaron-paul-min.webp 414w, ./assets/images/gallery/concerts/aaron-paul-min.webp 320w" sizes="100vw"
 				 width="489" height="652" loading="lazy"/>
 
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-min.webp" 
-				alt="Portrait d'un homme en costard les bras croisés." 
-				title="Homme en costard avec les bras croisés." srcset="./assets/images/gallery/entreprise/ali-morshedlou-min.webp 1440w, ./assets/images/gallery/entreprise/ali-morshedlou-min.webp 1024w, ./assets/images/gallery/entreprise/ali-morshedlou-min.webp 768w, ./assets/images/gallery/entreprise/ali-morshedlou-min.webp 414w, ./assets/images/gallery/entreprise/ali-morshedlou-min.webp 320w" sizes="100vw"
+				alt="Portrait d'un cadre en costard les bras croisés." 
+				title="Cadre en costard avec les bras croisés." srcset="./assets/images/gallery/entreprise/ali-morshedlou-min.webp 1440w, ./assets/images/gallery/entreprise/ali-morshedlou-min.webp 1024w, ./assets/images/gallery/entreprise/ali-morshedlou-min.webp 768w, ./assets/images/gallery/entreprise/ali-morshedlou-min.webp 414w, ./assets/images/gallery/entreprise/ali-morshedlou-min.webp 320w" sizes="100vw"
 				width="440" height="440" loading="lazy"/>
 
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-min.webp" 
@@ -112,32 +117,39 @@
 				 width="489" height="391" loading="lazy"/>
 
 				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-min.webp"
-				 alt="Portrait d'un homme portant un t-shirt noir et une chaîne autour du cou." title="Homme portant un t-shirt noir et une chaîne." srcset="./assets/images/gallery/portraits/ade-tunji-min.webp 1440w, ./assets/images/gallery/portraits/ade-tunji-min.webp 1024w, ./assets/images/gallery/portraits/ade-tunji-min.webp 768w, ./assets/images/gallery/portraits/ade-tunji-min.webp 414w, ./assets/images/gallery/portraits/ade-tunji-min.webp 320w" sizes="100vw"
+				 alt="Portrait d'un homme qui ferme les yeux." title="Homme fermant les yeux,portant un t-shirt noir et une chaîne." srcset="./assets/images/gallery/portraits/ade-tunji-min.webp 1440w, ./assets/images/gallery/portraits/ade-tunji-min.webp 1024w, ./assets/images/gallery/portraits/ade-tunji-min.webp 768w, ./assets/images/gallery/portraits/ade-tunji-min.webp 414w, ./assets/images/gallery/portraits/ade-tunji-min.webp 320w" sizes="100vw"
 				  width="440" height="440" loading="lazy"/>
+
 				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-min.webp" 
 				alt="Mariage entre une femme en roble blanche et un homme en costume vert, sous les palmiers." title="Mariage d'une femme en robe blanche et un homme en costume vert." srcset="./assets/images/gallery/mariage/jakob-owens-min.webp 1440w, ./assets/images/gallery/mariage/jakob-owens-min.webp 1024w, ./assets/images/gallery/mariage/jakob-owens-min.webp 768w, ./assets/images/gallery/mariage/jakob-owens-min.webp 414w, ./assets/images/gallery/mariage/jakob-owens-min.webp 320w" sizes="100vw"
 				 width="440" height="400" loading="lazy"/>
+
 				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-min.webp" 
 				alt="Portrait d'une jeune femme portant, lunette, t-shirt noir, en extérieur et plusieurs bijoux." title="Jeune femme en lunette, t-shirt noir, en extérieur avec plusierus bijoux." srcset="./assets/images/gallery/portraits/nino-van-prattenburg-min.webp 1440w, ./assets/images/gallery/portraits/nino-van-prattenburg-min.webp 1024w, ./assets/images/gallery/portraits/nino-van-prattenburg-min.webp 768w, ./assets/images/gallery/portraits/nino-van-prattenburg-min.webp 414w, ./assets/images/gallery/portraits/nino-van-prattenburg-min.webp 320w" sizes="100vw"
 				 width="400" height="440" loading="lazy"/>
+
 				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-min.webp" 
 				alt="Personne tenant un micro sur scène et des jets de fumée blanche et rouge." title="Personne tenant un micro sur scène." srcset="./assets/images/gallery/concerts/austin-neill-min.webp 1440w, ./assets/images/gallery/concerts/austin-neill-min.webp 1024w, ./assets/images/gallery/concerts/austin-neill-min.webp 768w, ./assets/images/gallery/concerts/austin-neill-min.webp 414w, ./assets/images/gallery/concerts/austin-neill-min.webp 320w" sizes="100vw"
 				width="400" height="420" loading="lazy"/>
+
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-min.webp" 
 				alt="Femme au bureau, sur l'ordinateur ayant un grand sourire très agréable." title="Femme au bureau avec un très grand sourire." srcset="./assets/images/gallery/entreprise/mateus-campos-min.webp 1440w, ./assets/images/gallery/entreprise/mateus-campos-min.webp 1024w, ./assets/images/gallery/entreprise/mateus-campos-min.webp 768w, ./assets/images/gallery/entreprise/mateus-campos-min.webp 414w, ./assets/images/gallery/entreprise/mateus-campos-min.webp 320w" sizes="100vw"
 				width="400" height="420" loading="lazy"/>   
 			</div>
 		</div>
-		<div class="quote">
+
+		<!--Add Aside tag for to specify secondary content for the main zone-->
+		<aside class="quote">
 			<figure>
 				<blockquote>
 					<h3 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h3>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
-		</div>
-	</div>
-	<div id="services">
+		</aside>
+	</section>
+
+	<section id="services">
 		<h2 class="title">Mes services</h2>
 		<div class="container">
 			<div class="service">
@@ -172,16 +184,18 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="quote">
+	</section>
+
+	<aside class="quote">
 		<figure>
 			<blockquote>
 				<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h2>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
-	</div>
-	<div id="contact">
+	</aside>
+
+	<section id="contact">
 		<div class="container">
 			<div class="form-container">
 				<h3>Une question ? Une demande de devis ?</h3>
@@ -202,8 +216,10 @@
 				 width="400" height="414" loading="lazy">
 			</div>
 		</div>
-	</div>
+	</section>
+
 </main>	
+
 <!--Place footer tag for content at the bottom of page-->
 <footer>
 	<div class="footer-left">
@@ -219,6 +235,7 @@
 		<p>© 2024 Nina Carducci</p>
 	</div> 
 </footer>
+
 <!--Script and iframe Tags-->
 </body>
 </html>

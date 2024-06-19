@@ -105,6 +105,7 @@ img {
 .gallery .nav {
 	justify-content: center;
 }
+/* Changed the color for contast purpose*/
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #000;
 	background-color: #BEB45A;
@@ -188,7 +189,8 @@ img {
 	background-color: white;
 	max-width: 390px;
 	width: 30%;
-	height: 337px;
+	/* Height removed to keep layout when user zooms */
+	/*height: 337px; */
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
