@@ -1,0 +1,3 @@
+# Set caching on image files 
+ExpiresActive On 
+ExpiresByType image/webp "access plus 2 days"
