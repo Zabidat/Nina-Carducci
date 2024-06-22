@@ -8,7 +8,7 @@
 	<meta name="description" content="Nina Carducci est une photographe passionnée basée à Bordeaux. Spécialiste dans la capture de moments uniques, précieux et les rends immortels.">
 	<meta name="keywords" content="album, photographe, portrait, mariage, événement, entreprise, concert, shooting">
 	<meta rel="author" content="Nina Carducci">
- 
+
 	<!--TITLE TAG-->
 	<title>Nina Carducci - Photographe Professionnelle à Bordeaux</title> 
 
@@ -30,16 +30,8 @@
 	<meta name="twitter:description" content="Photographe professionnelle et passionnée basée à Bordeaux." />
 	<meta name="twitter:image" content="https://zabidat.github.io/Nina-Carducci/assets/images/nina.webp" />
 
-	<link
-      rel="preload"
-      as="style"
-      media="(min-width:481px)"
-      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,400;1,700&family=Inter:wght@400;500&display=swap"
-      onload="this.rel='stylesheet'"
-    />
 	<!--For bootstrap Link-->
-	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
-	<noscript><link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"></noscript>
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	
 	<!--For Favicon (it makes our favicon work anywhere (and site.webmanifeste helps the site and browsers display what needs to be displayed)-->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
@@ -48,8 +40,7 @@
 	<link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	
 	<!--For Style-->
-	<link rel="preload" href="./assets/style-min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
-	<noscript><link rel="stylesheet" href="./assets/style-min.css"></noscript>
+	<link rel="stylesheet" href="./assets/style-min.css" defer>
 
 	<!-- For Rich Snippet-->
 	<script type="application/ld+json">
@@ -91,14 +82,14 @@
 	</script>
 
 </head>
-<body style="overflow: hidden;">
+<body>
 
  <!--Replace div with header tag-->
 <header class="top-header">
 	<!--Replace h3 with H1 tag-->
 	<h1 class="name">Nina Carducci</h1>
 	<!--Replace div with nav tag for the navigation menu -->
-	<nav class="nav" style="overflow: hidden;">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -149,8 +140,9 @@
 
 	<div id="about">
 		<div class="picture left">
-			<img src="./assets/images/nina-414.webp" alt="Portrait d'une jeune femme avec des arbres à l'arrière." 
-			title="Une jeune femme avec des arbres à l'arrière."  width="414" height="auto">
+			<img src="./assets/images/nina.webp" alt="Portrait d'une jeune femme avec des arbres à l'arrière." 
+			title="Une jeune femme avec des arbres à l'arrière." srcset="./assets/images/nina.webp 1440w, ./assets/images/nina.webp 1024w, ./assets/images/nina.webp 768w, ./assets/images/nina.webp 414w, ./assets/images/nina.webp 320w" sizes="100vw"
+			width="400" height="399">
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
@@ -280,8 +272,9 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/camera-414.webp" alt="Appareil Photo Vintage Minolta avec une lentille illuminée, sur un fond sombre." 
-				title="Appareil Photo Vintage Minolta." width="414" height="auto" >
+				<img src="./assets/images/camera.webp" alt="Appareil Photo Vintage Minolta avec une lentille illuminée, sur un fond sombre." 
+				title="Appareil Photo Vintage Minolta." srcset="./assets/images/camera.webp 1440w, ./assets/images/camera.webp 1024w, ./assets/images/camera.webp 768w, ./assets/images/camera.webp 414w, ./assets/images/camera.webp 320w" sizes="100vw"
+				 width="400" height="414" loading="lazy">
 			</div>
 		</div>
 	</section>
@@ -305,16 +298,16 @@
 </footer>
 
 	<!-- For Jquery last version--> 
-	<script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
 	integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
-	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 
 	<!--For Bootstrap-->
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
 
 	<!-- For Js-->
-	<script type="text/javascript" src="./assets/maugallery-min.js" defer></script> 
-	<script type="text/javascript" src="./assets/scripts-min.js"  defer></script> 
+	<script type="text/javascript" src="./assets/maugallery-min.js" async=""></script> 
+	<script type="text/javascript" src="./assets/scripts-min.js" async=""></script> 
 
 </body>
 
