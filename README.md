@@ -19,7 +19,7 @@ Technologies utilisées :
 •	Git
 
 Livrables :
-[Audit Lighthouse Desktop- .pdf](https://github.com/user-attachments/files/15942232/Audit.Lighthouse.Desktop-.pdf)
+[Audit Lighthouse Desktop .pdf](https://github.com/user-attachments/files/15942254/Audit.Lighthouse.Desktop.pdf)
 
 [Audit Lighthouse -Mobile .pdf](https://github.com/user-attachments/files/15942230/Audit.Lighthouse.-Mobile.pdf)
 
